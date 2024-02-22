@@ -5,6 +5,12 @@
              version="3.0">
   <persistence-unit name="pet_store" transaction-type="RESOURCE_LOCAL">
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <class>petstore.entite.method.Address</class>
+    <class>petstore.entite.method.Animal</class>
+    <class>petstore.entite.method.Cat</class>
+    <class>petstore.entite.method.Fish</class>
+    <class>petstore.entite.method.PetStore</class>
+    <class>petstore.entite.method.Product</class>
     <properties>
       <!-- desactiver l'autodetection des classes de type @Entity -->
       <property name="hibernate.archive.autodetection" value="" />

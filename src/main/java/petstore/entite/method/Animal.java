@@ -3,26 +3,46 @@ package petstore.entite.method;
 import javax.persistence.*;
 import java.util.Date;
 
+/** * Animal abstrait: Fish ou Cat. */
 @Entity
 @Table(name= "Animal")
-public class Animal {
+@Inheritance(strategy = InheritanceType.JOINED)
+public abstract class Animal {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     @Column (name="birth")
     private Date birth;
 
     @Column (name="couleur")
     private String couleur;
 
+    @ManyToOne
+    @JoinColumn (name="ID_PETSTORE")
+    private PetStore petStore;
+
     public Animal() {
     }
 
-    public int getId() {
+    public Animal(Date birth, String couleur, PetStore petStore) {
+        this.birth = birth;
+        this.couleur = couleur;
+        this.petStore = petStore;
+    }
+
+    public PetStore getPetStore() {
+        return petStore;
+    }
+
+    public void setPetStore(PetStore petStore) {
+        this.petStore = petStore;
+    }
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
