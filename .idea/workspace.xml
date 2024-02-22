@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="327eb028-6593-4ecd-8223-8173e9735c0b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/entite/method/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/petstore/entite/method/PetStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petstore/entite/method/PetStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708613605372</updated>
-      <workItem from="1708613606451" duration="1401000" />
+      <workItem from="1708613606451" duration="1604000" />
     </task>
     <servers />
   </component>
