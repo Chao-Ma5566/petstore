@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="327eb028-6593-4ecd-8223-8173e9735c0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/entite/method/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/entite/method/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/entite/method/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/entite/method/FishLivEnv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/entite/method/ProdType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/entite/method/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/epsi/b3c1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/b3c1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/petstore/entite/method/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petstore/entite/method/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/petstore/entite/method/PetStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petstore/entite/method/PetStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/petstore/entite/method/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petstore/entite/method/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/petstore/entite/method/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petstore/entite/method/Fish.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708613605372</updated>
-      <workItem from="1708613606451" duration="7269000" />
+      <workItem from="1708613606451" duration="7742000" />
     </task>
     <servers />
   </component>
